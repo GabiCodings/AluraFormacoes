@@ -1,0 +1,75 @@
+body {
+    background: black;
+    color: #F6F6F6;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  strong {
+    color:#22D4FD;
+
+  }
+  
+  .caixa-central {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    background: transparent;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+  
+  .conteudo {
+    gap: 1px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .conteudo h1 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  
+  .conteudo p {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 100%;
+  }
+  
+  .botoes {
+    display: flex;
+    gap: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    background-color: #22D4FD;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #1ab8de;
+  }
+  
+  .imagem img {
+    width: 280px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
